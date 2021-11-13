@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Poppins:wght@200;400;700&display=swap');
+
+/* General
+------------------------------------------------------------------------- */
+
+*,
+*:before,
+*:after{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root{
+  --black: #001A23;
+  --yellow: #FFD165;
+  --orange: #FD8F3A;
+  --blue: #3B7480;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{font-family: 'Galindo', cursive; margin-block-end: 1em;}
+p{margin-block-end: 1em; line-height: 30px;}
+a{text-decoration: none;}
+img{width: 100%; height: auto;}
+hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2px; background-color: var(--black); opacity: 0.3; }
+
+
+/* Helpers
+------------------------------------------------------------------------- */
+.container{width: 90%; max-width: 2000px; position: relative; margin: 0 auto;}
+
+
+@media screen and (max-width: 426px){
+  .container{width: 86%;}
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.page-wrap {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100vw;
+}
+.page h1 {
+  font-size: 8rem;
+}
+.page-index {
+  background-color: hotpink;
+}
+
+.page-one {
+  background-color: palegoldenrod;
+}
+
+.page-two {
+  background-color:#459e9e
+}
+
+.page-three {
+  background-color: palevioletred;
+}
+
+.page-four {
+  background-color: palegreen;
+}
+
+.page-wrap > h1 {
+  margin-top: 0;
+}
+
+.ui-wrap {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.navigation {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anim-switch {
+  margin-top: 14px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.exit-box {
+  color:#fff;
+  display: inline-block;
+  margin-left:14px;
+  cursor: pointer;
+  /* margin:0 14px; */
+}
+
+.exit-box [type='checkbox']{
+ margin:0 8px;
+}
+
+/* Button
+------------------------------------------------------------------------- */
+.button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 5px; color: white; font-size: 14px; }
+
+/* Navbar
+------------------------------------------------------------------------- */
+.navbar{border: 1px solid yellow;width: 100vw; padding: 2vh 0; background-color: white; position: fixed; z-index: 1000;}
+.navbar .container{ border: 1px solid red; display: flex; justify-content: space-between; }
+.navbar__logo{border: 1px solid blue;width: 70px;}
+.navbar__menu{border: 1px solid blue; width: 60%; display: flex;  align-items: center;}
+.navbar__menu ul{width: 100%;display: flex; justify-content: space-between;list-style-type: none; align-items: center; border: 1px solid green;}
+.navbar__cta{border: 1px solid blue; display: flex; align-items: center;}
