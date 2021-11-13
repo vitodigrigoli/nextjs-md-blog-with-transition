@@ -20,7 +20,7 @@ body {
   margin: 0;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #000;
+  background-color: white;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -124,13 +124,28 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 /* Button
 ------------------------------------------------------------------------- */
-.button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 5px; color: white; font-size: 14px; }
+.button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 6px; color: white; font-size: 14px; }
 
 /* Navbar
 ------------------------------------------------------------------------- */
-.navbar{border: 1px solid yellow;width: 100vw; padding: 2vh 0; background-color: white; position: fixed; z-index: 1000;}
+.navbar{border: 1px solid yellow; width: 100vw; padding: 2vh 0; background-color: white; position: fixed; z-index: 1000;}
 .navbar .container{ border: 1px solid red; display: flex; justify-content: space-between; }
-.navbar__logo{border: 1px solid blue;width: 70px;}
+.navbar__logo{border: 1px solid blue;width: 70px; display: flex; align-items: center;}
 .navbar__menu{border: 1px solid blue; width: 60%; display: flex;  align-items: center;}
 .navbar__menu ul{width: 100%;display: flex; justify-content: space-between;list-style-type: none; align-items: center; border: 1px solid green;}
 .navbar__cta{border: 1px solid blue; display: flex; align-items: center;}
+
+.navbar__icon{border: 1px solid green; align-items: center; position: relative; z-index: 1010; }
+
+
+@media (max-width: 768px) {
+
+  .navbar__menu--mobile{position: fixed;top: 0; left: 0; width: 100%; height: 100%; background-color: var(--black); display: none}
+  .navbar__menu--mobile--open{display: flex;}
+  .navbar__menu--mobile ul{flex-direction: column;}
+  .navbar__menu--mobile ul li {font-size: 24px; border: 1px solid red; width: 50%; text-align: center}
+  .navbar__menu--mobile ul li a{border: 1px solid yellow; width: 100%; height: 100%; display: block; padding: 3vw 0; font-weight: 400; color: white; letter-spacing: 2px;}
+
+  .navbar__icon{border: 1px solid green; display: flex; align-items: center }
+  .navbar__icon__close{color: white; position: relative; z-index: 1010; }
+}

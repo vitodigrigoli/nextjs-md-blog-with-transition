@@ -1,21 +1,15 @@
-import {
-  AnimatePresence,
-  domAnimation, LazyMotion,
-  m
-} from "framer-motion"
+import { AnimatePresence, domAnimation, LazyMotion, m } from "framer-motion"
 import type { AppProps } from "next/app"
 import "normalize.css"
-import { useState } from "react"
-import AnimSwitcher from "../components/AnimSwitcher"
 import Navbar from "../components/Navbar"
 import { animations } from "../lib/animations"
 import "../styles/globals.css"
 
 
 function MyApp({ Component, pageProps, router }: AppProps) {
-  const startIndex = 2;
-  const [animation, setAnimation] = useState(animations[startIndex]);
-  const [exitBefore, setExitBefore] = useState(true);
+  const anim_type = 2;
+  const animation = animations[anim_type];
+  const exitBefore = false;
 
   console.log('exit before ',exitBefore)
   return (
