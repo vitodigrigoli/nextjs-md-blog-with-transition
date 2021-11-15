@@ -6,36 +6,24 @@ import { useMediaQuery } from 'react-responsive'
 
 export default function Navbar(){
 
-	const [isOpen, setIsOpen] = useState( '' )
+	const [isOpen, setIsOpen] = useState( false )
 
 	const toggleMenu = () =>{
-		const newState = isOpen === '' ? 'navbar__menu--open' : ''
-		setIsOpen( newState )
+		setIsOpen( !isOpen )
 	}
-
-	const icon_open =
-		<div className="navbar__icon__open">
-			Menu
-		</div>
-
-	const icon_close =
-		<div className="navbar__icon__close">
-			Chiudi
-		</div>
-
 
 
 	return(
 		<nav className='navbar'>
 			<div className="container">
 					<div className="navbar__icon">
-						<div className={`navbar__icon__bars ${isOpen === '' ? '' : 'navbar__icon__bars--active'}`} onClick={toggleMenu}><span id="bar-1"/><span id="bar-2"/></div>
+						<div className={`navbar__icon__bars ${isOpen ? 'navbar__icon__bars--active' : ''}`} onClick={toggleMenu}><span id="bar-1"/><span id="bar-2"/></div>
 
 					</div>
 				<div className='navbar__logo'>
 					<Image src={logo}	alt="logo arca"/>
 				</div>
-				<div className={`navbar__menu ${isOpen}`} >
+				<div className={`navbar__menu ${isOpen ? 'navbar__menu--open' : ''}`} >
 					<ul>
 						<li><Link href="/"><a onClick={toggleMenu}>Homepage</a></Link></li>
 						<li><Link href="/progetti"><a onClick={toggleMenu}>Progetti</a></Link></li>
