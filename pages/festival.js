@@ -1,6 +1,6 @@
 export default function Festival(){
 	return(
-		<div className="page page-two">
+		<div >
 			<h1>Festival</h1>
 		</div>
 	)

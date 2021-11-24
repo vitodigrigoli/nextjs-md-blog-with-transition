@@ -18,15 +18,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  min-height: 100vh;
-  overflow: hidden;
   background-color: white;
   font-family: 'Poppins', sans-serif;
   color: var(--black)
 }
 
-h1, h2, h3, h4, h5, h6{font-family: 'Galindo', cursive; margin-block-end: 0.5em;}
-p{margin-block-end: 1em; line-height: 30px;}
+h1, h2, h3, h4, h5, h6{font-family: 'Galindo', cursive; margin-block-end: 0.5em; font-weight: 400;}
+p{margin-block-start: 1em; line-height: 30px;}
 a{text-decoration: none; color: var(--black)}
 img{width: 100%; height: auto;}
 hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2px; background-color: var(--black); opacity: 0.3; }
@@ -48,22 +46,16 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 @media screen and (max-width: 426px){
   .container{width: 86%;}
 }
-/*
+
 .app-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-}
-*/
-.page-wrap {
-  display: flex;
-  position: absolute;
-  height: 100%;
+
   width: 100vw;
 }
 
+.page-wrap {
+
+}
+/*
 .page {
   display: flex;
   align-items: center;
@@ -72,6 +64,8 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
   height: 100%;
   width: 100vw;
 }
+
+ */
 .page h1 {
   font-size: 5rem;
 }
@@ -133,7 +127,9 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 /* Button
 ------------------------------------------------------------------------- */
-.button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 6px; color: white; font-size: 14px; }
+.button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 6px; color: white; font-size: 14px;transition: 0.3s }
+.button--light{ border: 2px solid var(--blue); background-color: transparent; color: var(--blue); }
+.button--light:hover{background-color: var(--blue); color: white;}
 
 /* Navbar
 ------------------------------------------------------------------------- */
@@ -183,8 +179,8 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 ------------------------------------------------------------------------- */
 .video{display: flex; align-items: center; width: 100%; height: 100vh; border: 1px solid red;}
 .video__text{width: 50%; position: relative; z-index: 10; color: white;}
-.video__text h1{font-size: clamp(30px, 6vw, 50px)}
-.video__text p{font-size: clamp(14px, 1.2vw, 20px)}
+.video__text h1{font-size: clamp(30px, 6vw, 50px); }
+.video__text p{font-size: clamp(14px, 1.2vw, 20px);}
 .video__bg{position: absolute;  top: 0; left: 0; width: 100%; height: 100%; z-index: 1}
 .video__bg::before{content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 3;}
 
@@ -197,4 +193,17 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 @media (max-width: 500px) {
   .video__text{width: 100%;}
+}
+
+/* Banner
+------------------------------------------------------------------------- */
+.banner{padding: 15vh 0; text-align: center; color: var(--blue);}
+.banner__text{width: 70%; margin: 0 auto; }
+.banner__text h2{font-size: 16px; text-transform: uppercase; margin-bottom: 5vh;}
+.banner__text p{font-size: clamp(16px, 2vw, 30px); font-weight: bold; line-height: 1.7;}
+
+.banner__cta{margin-top: 5vh;}
+
+@media screen and (max-width: 426px){
+  .banner__text{width: 100%;}
 }

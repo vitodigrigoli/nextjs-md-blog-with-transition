@@ -15,8 +15,6 @@ export default function VideoBG(){
 					<source src='Loop_v2_LQ.mp4' type="video/mp4"/>
 				</video>
 			</div>
-
-
 		</header>
 	)
 }
