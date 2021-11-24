@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import logo from '../public/logo-arca.png'
-import {useEffect, useState} from "react";
-import { useMediaQuery } from 'react-responsive'
+import {useState} from "react";
 
 export default function Navbar(){
 

@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 
   console.log('exit before ',exitBefore)
   return (
-    <div className="app-wrap">
+    <div>
       <div className="ui-wrap">
         <Navbar />
       </div>
