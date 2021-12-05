@@ -1475,6 +1475,11 @@
   "resolved" "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz"
   "version" "4.2.6"
 
+"gsap@^3.8.0":
+  "integrity" "sha512-cvpzKkWFePDZCycwXwJnDSpTR3j+a4QLQF/t0c+pXqzRESgAYx5hieaoshzZFjbwsARqr0+5c3GKE7wI273w/g=="
+  "resolved" "https://registry.npmjs.org/gsap/-/gsap-3.8.0.tgz"
+  "version" "3.8.0"
+
 "has-bigints@^1.0.1":
   "integrity" "sha512-LSBS2LjbNBTf6287JEbEzvJgftkF5qFkmCo9hDRpAzKhUOlJ+hx8dd4USs00SgsUNwc4617J9ki5YtEClM2ffA=="
   "resolved" "https://registry.npmjs.org/has-bigints/-/has-bigints-1.0.1.tgz"
@@ -1935,6 +1940,11 @@
   "version" "3.1.0"
   dependencies:
     "semver" "^6.0.0"
+
+"marked@^4.0.4":
+  "integrity" "sha512-d8v7SensuOj+gxi0TGbqb2WtS60ycZfZuqtmAB9yz0JLotKerTob/47Qk9oLCDmn5G1dcdn3d5ydR+ih9dvS0A=="
+  "resolved" "https://registry.npmjs.org/marked/-/marked-4.0.4.tgz"
+  "version" "4.0.4"
 
 "matchmediaquery@^0.3.0":
   "integrity" "sha512-Hlk20WQHRIm9EE9luN1kjRjYXAQToHOIAHPJn9buxBwuhfTHoKUcX+lXBbxc85DVQfXYbEQ4HcwQdd128E3qHQ=="

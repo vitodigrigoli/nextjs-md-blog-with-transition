@@ -127,13 +127,14 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 /* Button
 ------------------------------------------------------------------------- */
-.button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 6px; color: white; font-size: 14px;transition: 0.3s }
+.button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 6px; color: white; font-size: 14px;transition: 0.3s; margin-top: 5vh;}
 .button--light{ border: 2px solid var(--blue); background-color: transparent; color: var(--blue); }
 .button--light:hover{background-color: var(--blue); color: white;}
 
+
 /* Navbar
 ------------------------------------------------------------------------- */
-.navbar{width: 100vw; padding: 2vh 0; background-color: white; position: fixed; z-index: 100;}
+.navbar{width: 100vw; padding: 2vh 0; background-color: white; position: fixed; z-index: 100; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1)}
 .navbar .container{ display: flex; justify-content: space-between; }
 .navbar__logo{width: 70px; display: flex; align-items: center;}
 .navbar__menu{width: 60%; display: flex;  align-items: center;}
@@ -153,8 +154,6 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 .navbar__icon__bars--active #bar-1{ transform: rotate(45deg);  }
 .navbar__icon__bars--active #bar-2{ transform: rotate(-45deg)  }
-
-
 
 @media (max-width: 768px) {
 
@@ -178,7 +177,7 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 /* Video Background
 ------------------------------------------------------------------------- */
 .video{display: flex; align-items: center; width: 100%; height: 100vh; border: 1px solid red;}
-.video__text{width: 50%; position: relative; z-index: 10; color: white;}
+.video__text{width: 50%; position: relative; z-index: 10; color: white; text-shadow: 2px 2px 7px black;}
 .video__text h1{font-size: clamp(30px, 6vw, 50px); }
 .video__text p{font-size: clamp(14px, 1.2vw, 20px);}
 .video__bg{position: absolute;  top: 0; left: 0; width: 100%; height: 100%; z-index: 1}
@@ -195,15 +194,81 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
   .video__text{width: 100%;}
 }
 
+
 /* Banner
 ------------------------------------------------------------------------- */
 .banner{padding: 15vh 0; text-align: center; color: var(--blue);}
+
 .banner__text{width: 70%; margin: 0 auto; }
 .banner__text h2{font-size: 16px; text-transform: uppercase; margin-bottom: 5vh;}
 .banner__text p{font-size: clamp(16px, 2vw, 30px); font-weight: bold; line-height: 1.7;}
 
-.banner__cta{margin-top: 5vh;}
+.banner__cta{}
 
 @media screen and (max-width: 426px){
   .banner__text{width: 100%;}
 }
+
+/* Vertical Slider
+------------------------------------------------------------------------- */
+.v-slider{height: 120vh; background-color: var(--blue);  color: white; overflow: hidden; }
+.v-slider .container{ position: relative; height: 100%; display: flex; align-items: center}
+
+.v-slider__text{width: 50%; z-index: 10; color: white; text-shadow: 2px 2px 7px black;}
+.v-slider__text h2{font-size: clamp(30px, 6vw, 50px); }
+.v-slider__text p{font-size: clamp(14px, 1.2vw, 20px);}
+
+.v-slider__images{width: 60%; height: 70vh; position: absolute; top: 0; right: 0; display: flex; justify-content: space-between }
+.v-slider__images .col{width: 49%;}
+.v-slider__images #col-up{transform: translateY(30%)}
+.v-slider__images #col-down{transform: translateY(-80%)}
+
+.v-slider__images__img{width: 100%; position: relative; margin-bottom: 5%; }
+.v-slider__images__img::before{content: ''; width: 100%; height: 100%; background-color: rgba(59, 116, 128, 0.8); position: absolute; top:0; left: 0; z-index: 1; border-radius: 20px;}
+.v-slider__images__img img{border-radius: 20px; }
+
+@media (max-width: 769px) {
+  .v-slider{height: 100vh}
+  .v-slider__text{width: 100%; }
+  .v-slider__images{width: 100%;}
+}
+
+@media (max-width: 500px) {
+  .v-slider{height: 80vh}
+  .v-slider__images #col-up{transform: translateY(30%)}
+  .v-slider__images #col-down{transform: translateY(-10%)}
+}
+
+
+/* Post
+------------------------------------------------------------------------- */
+.post{display: flex; justify-content: space-around; flex-wrap: wrap; margin: 15vh auto;}
+.post--reverse{flex-direction: row-reverse}
+
+.post__image{width: 40%; border: 1px solid red; }
+.post__image img{border-radius: 25px}
+
+.post__text {width: 40%; border: 1px solid blue; display: flex; align-items: center; color: var(--blue)}
+.post__text h2{font-size: clamp(30px, 2.8vw, 50px); }
+
+
+
+@media (max-width: 500px) {
+  .post__image,
+  .post__text{width: 100%; }
+  .post__text{ margin-top: 5vh}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
