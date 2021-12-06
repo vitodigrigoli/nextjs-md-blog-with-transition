@@ -140,7 +140,7 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 .navbar__menu{width: 60%; display: flex;  align-items: center;}
 .navbar__menu ul{width: 100%;display: flex; justify-content: space-between;list-style-type: none; align-items: center;}
 .navbar__cta{ display: flex; align-items: center;}
-
+.navbar__cta .button {margin-top: 0}
 .navbar__icon{display: none; align-items: center; position: relative; z-index: 100; width: 160px; }
 .navbar__icon__bars{height: 100%; position: relative; width: 50px; }
 .navbar__icon__bars #bar-1,
