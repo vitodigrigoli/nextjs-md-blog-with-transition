@@ -20,8 +20,7 @@ export default function VerticalSlider({title, text, withButton}){
 		ScrollTrigger.create({
 			animation: tl,
 			trigger: trigger,
-			start: "top bottom",
-			toggleActions: "restart pause reverse pause",
+			start: "top center",
 			scrub: 3,
 		})
 
@@ -38,7 +37,11 @@ export default function VerticalSlider({title, text, withButton}){
 					<p className='dash dash--yellow'>{text}</p>
 				</div>
 				<div className="v-slider__images">
-					<div className="col" id="col-up" ref={el => {col_up = el}}>
+
+					<div className="col" id="col-down" ref={el => {col_down = el}}>
+						<div className="v-slider__images__img">
+							<Image src={image} alt="prova"/>
+						</div>
 						<div className="v-slider__images__img">
 							<Image src={image} alt="prova"/>
 						</div>
@@ -46,7 +49,11 @@ export default function VerticalSlider({title, text, withButton}){
 							<Image src={image} alt="prova"/>
 						</div>
 					</div>
-					<div className="col" id="col-down" ref={el => {col_down = el}}>
+
+					<div className="col" id="col-up" ref={el => {col_up = el}}>
+						<div className="v-slider__images__img">
+							<Image src={image} alt="prova"/>
+						</div>
 						<div className="v-slider__images__img">
 							<Image src={image} alt="prova"/>
 						</div>

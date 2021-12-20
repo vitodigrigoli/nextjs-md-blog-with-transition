@@ -12,7 +12,7 @@ export default function VideoBG(){
 
 			<div className="video__bg">
 				<video id="video-bg" preload="auto" loop="loop" muted autoPlay>
-					<source src='Loop_v2_LQ.mp4' type="video/mp4"/>
+					<source src='/loop.mp4' type="video/mp4"/>
 				</video>
 			</div>
 		</header>
