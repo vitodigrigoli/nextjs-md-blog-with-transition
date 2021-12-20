@@ -76,7 +76,7 @@ export default function Index() {
         <Banner title={bannerText.title} text={bannerText.text} withButton />
         <VerticalSlider title={verticalSliderText.title} text={verticalSliderText.text} withButton />
         <Posts posts={posts}/>
-      {/*<HorizontalSlider title={horizontalSliderText.title}  slides={horizontalSliderText.slides}/>*/}
+      <HorizontalSlider title={horizontalSliderText.title}  slides={horizontalSliderText.slides}/>
         <VerticalSlider title={verticalSliderText.title} text={verticalSliderText.text} withButton />
         <Banner title={bannerText.title} text={bannerText.text} withButton />
         <Footer/>
