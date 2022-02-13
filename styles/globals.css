@@ -26,7 +26,9 @@ body {
 
 h1, h2, h3, h4, h5, h6{font-family: 'Galindo', cursive; margin-block-end: 0.5em; font-weight: 400;}
 p{margin-block-start: 1em; line-height: 30px;}
-a{text-decoration: none; color: var(--black)}
+a{text-decoration: none; color: var(--black);}
+
+
 img{width: 100%; height: auto;}
 hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2px; background-color: var(--black); opacity: 0.3; }
 
@@ -42,6 +44,12 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 .dash::before{content: ''; position: absolute; top: 0; left: -15px; width: 4px; height: 100%; border-radius: 4px;}
 .dash--blue::before{background-color: var(--blue)}
 .dash--yellow::before{background-color: var(--yellow)}
+
+.text-fade{animation: fade 1s ease-out; overflow: hidden; }
+@keyframes fade {
+  from{transform: translateY(100px); opacity: 0}
+  to{transform: translateY(0); opacity: 1}
+}
 
 
 @media screen and (max-width: 426px){
@@ -222,13 +230,13 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 .v-slider__images{width: 60%; height: 70vh; position: absolute; top: 0; right: 0; display: flex; justify-content: space-between }
 .v-slider__images .col{width: 49%;}
 .v-slider__images #col-up{transform: translateY(30%)}
-.v-slider__images #col-down{transform: translateY(-80%)}
+.v-slider__images #col-down{transform: translateY(-30%)}
 
 .v-slider__images__img{width: 100%; position: relative; margin-bottom: 5%; }
 .v-slider__images__img::before{content: ''; width: 100%; height: 100%; background-color: rgba(59, 116, 128, 0.8); position: absolute; top:0; left: 0; z-index: 1; border-radius: 20px;}
 .v-slider__images__img img{border-radius: 20px; }
 
-@media (max-width: 769px) {
+@media (max-width: 1024px) {
   .v-slider{height: 60vh}
   .v-slider__text{width: 100%; }
   .v-slider__images{width: 100%;}
@@ -257,21 +265,22 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
   .post__text{ margin-top: 5vh}
 }
 
-/* Horizontal Slider
+/* Focuses
 ------------------------------------------------------------------------- */
-.h-slider{ background-color: var(--yellow); padding: 10vh;   }
+.focuses{ background-color: var(--yellow); padding-top: 15vh; color: var(--blue); }
+.focuses .container{display: flex; flex-wrap: wrap; justify-content: space-between}
+.focus{width: 45%; border:1px solid violet; margin-bottom: 15vh}
 
-.h-slider h2{font-size: 16px; text-transform: uppercase; margin-bottom: 5vh; color: var(--blue); width: 100%; text-align: center;}
-.h-slider h3{ font-size: clamp(30px, 2.8vw, 50px); text-align: center;}
+.focuses h2{font-size: 16px; text-transform: uppercase; margin-bottom: 10vh; border: 1px solid red; text-align: center;}
+.focus h3{ font-size: clamp(30px, 2.8vw, 50px); text-align: center; ;}
 
-.h-slider .wrapper{position: relative; width: 100%; display: flex }
-.h-slider .wrapper section{border: 1px solid blue;min-width: 100%; height: 100vh; display: flex; align-items: center;}
-.h-slider .wrapper section .content{border: 1px solid green;max-width: 800px;}
-
+@media (max-width: 500px) {
+  .focus{width: 100%;}
+}
 
 /* Footer
 ------------------------------------------------------------------------- */
-.footer{background-color: var(--blue); padding-top: 10vh; padding-bottom: 1vh; color: white;}
+.footer{background-color: var(--blue); padding-top: 10vh; padding-bottom: 1em; color: white;}
 .footer .container{display: flex; justify-content: space-between; flex-wrap: wrap}
 .footer a {color: white}
 .footer p{margin-block-start: 1em; line-height: 1.5}
@@ -281,7 +290,7 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 .footer__info h3{text-transform: uppercase;}
 .footer__info .social-icon{font-size: 25px; margin-right: 30px}
 .footer__info .social-icon:last-child{ margin-right: 0}
-.subfooter{border-top: 3px solid white; letter-spacing: 2px; font-weight: 200; border-radius: 10px;  }
+.subfooter{border-top: 3px solid white; letter-spacing: 2px; font-weight: 200; margin-top: 5vh;}
 .subfooter a {font-weight: 400}
 .subfooter__policy a {font-weight: 200}
 

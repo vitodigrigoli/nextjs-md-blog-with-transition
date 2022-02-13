@@ -20,8 +20,6 @@ export default function Footer(){
 					<p>Cammarata (AG)</p>
 				</div>
 
-
-
 				<div className="footer__info">
 					<h3>Sostienici</h3>
 					<p>5 X MILLE - C.F. 93037270845</p>
