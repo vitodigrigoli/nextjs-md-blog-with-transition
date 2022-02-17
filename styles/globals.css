@@ -114,7 +114,7 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 /* Video Background
 ------------------------------------------------------------------------- */
-.hero{display: flex; align-items: center; width: 100%; height: 100vh; max-height: 100vh}
+.hero{display: flex; align-items: center; width: 100%; height: 100vh;}
 
 .hero__text{width: 50%; position: relative; z-index: 10; color: white; text-shadow: 2px 2px 7px black;}
 .hero__text h1{font-size: clamp(30px, 6vw, 50px); }
@@ -132,6 +132,7 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 @media (max-width: 500px) {
   .hero__text{width: 100%;}
+  .hero{height: 95vh;}
 }
 
 
