@@ -7,7 +7,7 @@ export default function Post({img, alt_img, link, title, text, isRevers}) {
 return(
 	<div className={`post container ${isRevers? 'post--reverse' : ''} `} >
 		<div className="post__image">
-			<Image src={img} alt={alt_img}/>
+			<img src={img} alt={alt_img}/>
 		</div>
 		<div className="post__text">
 			<div className="wrapper">

@@ -2,6 +2,7 @@ import { AnimatePresence, domAnimation, LazyMotion, m } from "framer-motion"
 import type { AppProps } from "next/app"
 import "normalize.css"
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 import { animations } from "../lib/animations"
 import "../styles/globals.css"
 
@@ -29,9 +30,11 @@ function MyApp({ Component, pageProps, router }: AppProps) {
             transition={animation.transition}
           >
             <Component {...pageProps} />
+              <Footer/>
           </m.div>
         </AnimatePresence>
       </LazyMotion>
+
     </div>
   );
 }
