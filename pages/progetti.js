@@ -6,10 +6,15 @@ import matter from 'gray-matter'
 import { sortByDate } from '../utils'
 import cover from '/public/referal.jpg'
 
+const HeroText = {
+	title: 'I nostri <span class="orange">Progetti</span> [25]',
+	text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [250]"
+}
+
 export default function Progetti({posts}){
 	return(
 		<>
-			<Hero title="Progetti" media={cover} />
+			<Hero title={HeroText.title} text={HeroText.text} media={cover} />
 			<div className='posts'>
 				{posts.map((post, index) => (
 					<Post

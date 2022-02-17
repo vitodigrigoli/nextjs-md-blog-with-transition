@@ -243,9 +243,14 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 /* Article
 ------------------------------------------------------------------------- */
-.article{display: flex; justify-content: space-between; padding: 10vh 0}
+.article{display: flex; justify-content: space-between; padding: 10vh 0; flex-wrap: wrap}
 .article__content{border:1px solid red; width: 70%}
 .article__sidebar{border: 1px solid blue; width: 20%}
+
+@media (max-width: 600px) {
+  .article__content{width: 100%}
+  .article__sidebar{width: 100%}
+}
 
 
 
