@@ -52,7 +52,7 @@ export async function getStaticProps() {
 			slug,
 			frontmatter,
 		}
-	})
+	}).filter( (post) => post.frontmatter.category==='progetti' )
 
 	return {
 		props: {

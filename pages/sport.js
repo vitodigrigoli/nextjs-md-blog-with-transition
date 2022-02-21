@@ -36,9 +36,26 @@ const focuses = {
 		},
 	]
 }
+
 const galleryText = {
 	title: 'Lorem ipsum dolor sit amet [25]',
 	images: [
+		{
+			original: cover.src,
+			thumbnail: cover.src,
+		},
+		{
+			original: cover.src,
+			thumbnail: cover.src,
+		},
+		{
+			original: cover.src,
+			thumbnail: cover.src,
+		},
+		{
+			original: cover.src,
+			thumbnail: cover.src,
+		},
 		{
 			original: cover.src,
 			thumbnail: cover.src,

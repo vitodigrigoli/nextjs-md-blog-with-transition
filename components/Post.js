@@ -11,8 +11,10 @@ return(
 		</div>
 		<div className="post__text">
 			<div className="wrapper">
-				<h2 dangerouslySetInnerHTML={ {__html: title}}/>
-				<p className="dash dash--blue">{text}</p>
+				<Link href={link}><a>
+					<h2 dangerouslySetInnerHTML={ {__html: title}}/>
+					<p className="dash dash--blue">{text}</p>
+				</a></Link>
 				<Button text="Scopri di più" link={link} isLight/>
 			</div>
 		</div>
