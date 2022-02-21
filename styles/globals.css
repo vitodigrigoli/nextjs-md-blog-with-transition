@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Galindo&family=Poppins:wght@200;400;500;700;900&display=swap');
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 /* General
 ------------------------------------------------------------------------- */
 
@@ -207,6 +207,28 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 @media (max-width: 500px) {
   .focus{width: 100%;}
 }
+
+/* Gallery
+------------------------------------------------------------------------- */
+.gallery {text-align: center; position: relative; padding: 15vh 0}
+.gallery h3{font-size: clamp(30px, 6vw, 50px); }
+.swiper {
+  width: 600px;
+  height: 600px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
 
 /* Footer
 ------------------------------------------------------------------------- */
