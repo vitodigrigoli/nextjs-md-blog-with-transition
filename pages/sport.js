@@ -37,9 +37,7 @@ const focuses = {
 	]
 }
 
-const galleryText = {
-	title: 'Lorem ipsum dolor sit amet [25]',
-	images: [
+const gallery = [
 		{
 			original: cover.src,
 			thumbnail: cover.src,
@@ -73,7 +71,6 @@ const galleryText = {
 			thumbnail: cover.src,
 		},
 	]
-}
 
 
 
@@ -83,7 +80,7 @@ export default function Sport(){
 			<Hero title={HeroText.title} text={HeroText.text} media={cover} />
 			<Banner title={bannerText.title} text={bannerText.text} withButton />
 			<Focuses title={focuses.title}  focuses={focuses.list}/>
-			<Gallery title={galleryText.title} images={galleryText.images} />
+			<Gallery images={gallery} />
 		</>
 	)
 }

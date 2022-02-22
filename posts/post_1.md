@@ -4,6 +4,7 @@ date: 'March 5, 2021'
 excerpt: 'Django is a very powerful, high level Python framework for building web applications'
 cover_image: '/referal.jpg'
 category: 'teatro'
+gallery: ['/_next/static/media/referal.8875d351.jpg','/referal.jpg']
 ---
 # Lorem ipsum dolor sit amet
 

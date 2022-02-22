@@ -18,7 +18,7 @@ export default function Hero({title, text, isVideo, media }){
 						<video id="video-bg" preload="auto" loop="loop" muted autoPlay>
 							<source src={media} type="video/mp4"/>
 						</video>
-					: <Image src={media} alt="" layout='fill' objectFit="cover"/>
+						: <div className="hero__bg__wrapper"><Image src={media} alt="" layout='fill' objectFit="cover"/></div>
 				}
 			</div>
 		</header>
