@@ -6,17 +6,8 @@ import Link from 'next/link'
 import Hero from "../../components/Hero";
 import {useEffect} from "react";
 import Gallery from "../../components/Gallery";
-import Image from 'next/image'
-import cover from "../../public/referal.jpg";
+import { FacebookProvider, Page } from 'react-facebook';
 
-
-const style={
-	position: 'relative',
-	width: "300px",
-	height: "150px",
-	border: '1px solid red'
-
-}
 export default function PostPage({
 																	 frontmatter: { title, date, cover_image, excerpt, gallery },
 																	 slug,
@@ -37,11 +28,12 @@ export default function PostPage({
 			<main className="article container">
 				<article className="article__content">
 					<div dangerouslySetInnerHTML={{ __html: marked(content) }}/>
-
 				</article>
 
 				<aside className="article__sidebar">
-					Sidebar
+					<FacebookProvider appId="841024582960553">
+						<Page href="https://www.facebook.com/Associaz%C3%ACone-LArca-1023082317760007" tabs="timeline" width="400" height="470"/>
+					</FacebookProvider>
 				</aside>
 			</main>
 			<Gallery images={g}/>
