@@ -4,6 +4,7 @@ date: 'March 4, 2021'
 excerpt: 'We will look at 10 simple tips and tricks to increase the speed of your code when writing JS'
 cover_image: '/referal.jpg'
 category: 'progetti'
+gallery: ['/_next/static/media/referal.8875d351.jpg','/referal.jpg']
 ---
 
 Lorem [markdownum](http://insunt.org/inpositaque), et sanguine rutilos dixit
