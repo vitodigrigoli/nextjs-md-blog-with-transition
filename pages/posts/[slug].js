@@ -16,9 +16,11 @@ export default function PostPage({
 	let el = {}
 	let g = []
 	gallery.map( (image, key) => {
+		console.log(image)
 		el.original = image
 		el.thumbnail = image
 		g.push(el)
+		el = {}
 	})
 
 	return (
