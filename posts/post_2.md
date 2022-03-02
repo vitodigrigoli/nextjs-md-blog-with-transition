@@ -1,56 +1,44 @@
 ---
-title: 'JavaScript Performance Tips'
-date: 'March 4, 2021'
+title: 'Il Piccolo Principe'
+date: 'March 4, 2020'
 excerpt: 'We will look at 10 simple tips and tricks to increase the speed of your code when writing JS'
-cover_image: '/referal.jpg'
-category: 'progetti'
-gallery: ['/_next/static/media/referal.8875d351.jpg','/referal.jpg']
+cover_image: '/piccolo-principe/piccolo-principe-4.jpg'
+category: 'teatro'
+gallery: ['/piccolo-principe/piccolo-principe-1.jpg', '/piccolo-principe/piccolo-principe-2.jpg', '/piccolo-principe/piccolo-principe-3.jpg', '/piccolo-principe/piccolo-principe-4.jpg', '/piccolo-principe/piccolo-principe-5.jpg' ]
 ---
 
-Lorem [markdownum](http://insunt.org/inpositaque), et sanguine rutilos dixit
-nigro cornu genus duris linguae. Super hic deus ego adveniens nullumque Venerem
-equis aurem aliisque celare densis dextramque similis **post**: mihi rexerat;
-bis.
+# Perché scegliere il piccolo principe?
+Il Piccolo Principe di Antoine de Sant-Exupéry è uno dei romanzi più conosciuti e amati del Ventesimo secolo, letto e riletto da grandi e piccoli, rappresentato e citato, oggetto dell'adorazione di molti.
 
-1. Scinditur annos
-2. Talia verba
-3. Habet delata villis domui
-4. Geminum viscere deum et utque
+Uno degli incontri del corso di formazione è stato dedicato alla scelta dell'opera da rappresentare.
 
-## Magnorum nulla avertit pedem neque monimenta terram
+La discussione è stata molto vivace e le proposte sono state varie e, durante il confronto, si è notato che la maggior parte dei partecipanti aveva letto aveva letto e amato "Il Piccolo Principe". La scelta è stata quindi unanime e condivisa.
 
-Quo numquam, nunc [concussaque](http://mox-cunctos.net/), hora effugit mihi,
-pectore. Hinc fausto, circumspicit cadas; virilibus rapui, timidum rorat cuique
-animorum ac! Quem sit. Venit qui, rex sibi tota, peto _fortis ira suis_ dolusque
-simulatque [incipit crudelesque
-pavens](http://www.corpora.com/terrae-oscula.html) spatiosa conlegit oscula
-equam.
+## Noi siamo Il Piccolo Principe
+Il passo successivo è stato affidare il ruolo principale, ma scegliere tra i ragazzi che avevano espresso il desiderio di partecipare si è rilevato difficile e quasi impossibile.
 
-## Mensis idem
+Durante un incontro, un tutor ha proposto che la parte fosse affidata a più di un interprete. L'idea ha preso forma e forza: in fondo cos'è Il Piccolo Principe se non il nucleo d'innocenza che ciascuno di noi riceve come corredo alla nascita e che pochi riescono a conservare? Avevamo il protagonista, anzi i protagonisti.
 
-Caelestia Ganymedes gentis. Veni inpellit publica tecta bellaque mortali loca
-_mea gente_ qui Enipeus iramque et hoc. _Altera Rex vetitum_; hoc magis dolores
-precor nec. Ubi verba, et aras regia, cognoscere vites tempusque expers, heros?
+## L'adattamento teatrale
+Adattarlo non è stato un lavoro facile. Il libro non ha una trama lineare, moltissimi episodi e personaggi durante lo spazio di poche righe, ci sono salti temporali, c'è una voce narrante che sparisce e riaffiora.
 
-## Mihi puto pallorem
+Così si è deciso di selezionare quelli che sembravano gli episodi più significativi, sono stati ampliati e adattati alle esigenze del teatro integrato e al desiderio di partecipazione di tanti ragazzi, confidando nel fatto che Il Piccolo Principe, come tutti i grandi classici, non avrebbe sofferto l'adattamento.
 
-Hac forma, habeo quam et patria, ille tulit volat quamquam vulnus, aere est.
-Ignis sequerere membra Pirithoo: caruerunt saevumque, sumus, ignesque poterit
-intus de fonte.
+### Il ruolo del Serpente
+Il cambiamento più significativo che abbiamo apportato è frutto di un rifiuto istintivo, quello di far morire Il Piccolo Principe.
 
-## Quondam montibus tua spes consilioque nata consilioque
+Ma come fare?
 
-Abigitque limite. Ipsa levis extulit munera, litora, ira pavet in morte, **te
-in** quas [vix](http://auxiliumquefando.net/vocibus-cum). Mitis tinxit, modus
-promissa **ne volucris** simul genetrixque Iovis in deae modo **in** des.
-_Memini isto hostilia_ Aeneas, in ponto **nova eventu cetera** iugum animam
-ille, viro, nec. Loquendi aves insisto saecula premente nec, at ego poscit ubi
-sub!
+È per rispondere a questa domanda che è stata portare avanti una riflessione: in fondo, se non fosse stato per il Serpente, il Piccolo Principe non sarebbe mai potuto tornare sul suo pianeta, sarebbe rimasto bloccato sulla Terra.
 
-- Tristis natorum ora talia patriis famae naidas
-- Deus scilicet male miliaque noctisque invenio Nilum
-- Efficerentque devexaque foret haec leve ab fertilis
+Il Serpente assume quindi un ruolo salvifico, riporta il protagonista al luogo a cui appartiene, alla Rosa e ai suoi vulcani (anche quello spento, non  si sa mai...).
 
-Institerat quantum facies parientem, crepitantis nondum. Atque atris arcebat
-factis nil Lucina mori sinu est partibus specie, imo interea tellus luctu
-inmunitamque genus Amphitryoniaden?
+Pe questo motivo si è deciso di affidare la parte a una bambina piccola che è riuscita nella sua innocenza (e con la sua adorabile zeppola) a dare al serpente una nuova voce.
+
+### La cornice
+A racchiudere il ttutto la cornice, dove si incontra la Voce Narrante. È lei che un po' immagina, un po' narra, un poì vive, un po' commenta la storia.
+
+La Voce Narrante è il filo conduttore, guida lo spettatore nell'esplorazione della storia, ma è anche la proiezione di chiunque abbia letto il libro e lo abbia immaginato e ambientato in luoghi familiari e amati.
+
+## Conclusioni
+Il nostro Piccolo Principe è il frutto di un'ampia collaborazione. I ragazzi che hanno partecipato ai laboratori, i tutor, i volontari, tutti hanno contribuito alla riuscita del progetto, anche se le difficoltà dovute all'emergenza sanitaria non sono mancate. La cosa più bello p che sono nate amicizie, sono stati creati legami, insomma, ci siamo addomesticati a vicenda...
