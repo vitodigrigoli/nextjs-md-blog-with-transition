@@ -21,6 +21,7 @@ body {
   background-color: white;
   font-family: 'Poppins', sans-serif;
   color: var(--black);
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6{font-family: 'Galindo', cursive; margin-block-end: 0.5em; font-weight: 400;}
@@ -258,19 +259,24 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 
 /* Article
 ------------------------------------------------------------------------- */
-.article{display: flex; justify-content: space-between; padding: 10vh 0; flex-wrap: wrap; align-self: flex-start}
-.article__content{border:1px solid red; width: calc(90% - 400px);}
-.article__sidebar{position: -webkit-sticky;  position: sticky;  top: 20%; height: 470px; width: 400px; border: 1px solid green;}
+.article{display: flex; justify-content: space-between; padding-top: 10vh; flex-wrap: wrap; align-self: flex-start}
+.article__content{width: calc(90% - 400px);}
+.article__sidebar{position: -webkit-sticky;  position: sticky;  top: 20%; height: 600px; width: 400px;}
 .article h1,
 .article h2,
 .article h3,
 .article h4,
 .article h5,
-.article h6 {margin-block: 0 0.5em}
-.article p{margin-block: 0 2em }
+.article h6 {margin-block: 2em 1em; text-transform: uppercase}
+.article p{margin-block: 0 1em }
+.article ol li{line-height: 30px}
 
+@media (max-width: 1024px) {
+  .article__sidebar{width: 250px}
+  .article__content{width: calc(90% - 250px);}
+}
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .article__content{width: 100%}
   .article__sidebar{display: none;}
 }

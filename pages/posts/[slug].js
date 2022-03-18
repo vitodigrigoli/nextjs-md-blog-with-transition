@@ -34,7 +34,7 @@ export default function PostPage({
 
 				<aside className="article__sidebar">
 					<FacebookProvider appId="841024582960553">
-						<Page href="https://www.facebook.com/Associaz%C3%ACone-LArca-1023082317760007" tabs="timeline" width="400" height="470"/>
+						<Page href="https://www.facebook.com/Associaz%C3%ACone-LArca-1023082317760007" tabs="timeline" width="400" height="600"/>
 					</FacebookProvider>
 				</aside>
 			</main>

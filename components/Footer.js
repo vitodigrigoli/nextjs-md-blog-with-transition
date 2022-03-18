@@ -8,7 +8,7 @@ import {faFacebook, faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer(){
 	return(
-		<footer className="footer">
+		<footer className="footer" id={"contatti"}>
 			<div className="container">
 				<div className="footer__logo">
 					<Image src={logo}	alt="logo arca"/>

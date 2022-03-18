@@ -29,7 +29,7 @@ export default function Navbar(){
 						<li><Link href="/teatro"><a onClick={toggleMenu}>Teatro</a></Link></li>
 						<li><Link href="/sport"><a onClick={toggleMenu}>Sport</a ></Link></li>
 						<li><Link href="/festival"><a onClick={toggleMenu}>Festival</a></Link></li>
-						<li><Link href="/contatti"><a onClick={toggleMenu}>Contatti</a></Link></li>
+						<li><Link href="#contatti"><a onClick={toggleMenu}>Contatti</a></Link></li>
 					</ul>
 				</div>
 				<div className='navbar__cta'>
