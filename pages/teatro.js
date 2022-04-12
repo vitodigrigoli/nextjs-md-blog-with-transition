@@ -8,8 +8,8 @@ import cover from '/public/referal.jpg'
 import {useEffect} from "react";
 
 const HeroText = {
-	title: 'I nostri <span class="orange">Teatro</span> [25]',
-	text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [250]"
+	title: 'I nostri <span class="orange">spettacoli</span> teatrali',
+	text: "Il Teatro svolge un ruolo fondamentale nella nostra proposta formativa: abbiamo allestito più di (fatti dire un numero approssimativo) negli ultimi anni, con grande gioia e partecipazione dei nostri ragazzi e di tutta la comunità. Gli spettacoli sono divenuti ormai dei momenti imprescindibili di crescita umana e sociale."
 }
 
 export default function Teatro({posts}){

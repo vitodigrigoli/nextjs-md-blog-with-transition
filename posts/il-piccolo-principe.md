@@ -36,7 +36,7 @@ Il Serpente assume quindi un ruolo salvifico, riporta il protagonista al luogo a
 Pe questo motivo si è deciso di affidare la parte a una bambina piccola che è riuscita nella sua innocenza (e con la sua adorabile zeppola) a dare al serpente una nuova voce.
 
 ### La cornice
-A racchiudere il ttutto la cornice, dove si incontra la Voce Narrante. È lei che un po' immagina, un po' narra, un poì vive, un po' commenta la storia.
+A racchiudere il tutto la cornice, dove si incontra la Voce Narrante. È lei che un po' immagina, un po' narra, un poì vive, un po' commenta la storia.
 
 La Voce Narrante è il filo conduttore, guida lo spettatore nell'esplorazione della storia, ma è anche la proiezione di chiunque abbia letto il libro e lo abbia immaginato e ambientato in luoghi familiari e amati.
 

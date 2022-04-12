@@ -7,8 +7,8 @@ import { sortByDate } from '../utils'
 import cover from '/public/referal.jpg'
 
 const HeroText = {
-	title: 'I nostri <span class="orange">Progetti</span> [25]',
-	text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [250]"
+	title: 'I nostri <span class="orange">Progetti</span>',
+	text: "L’ARCA non si ferma mai! Tanti sono i progetti che abbiamo realizzato nel corso degli anni e tantissimi sono quelli che pensiamo e mettiamo su ogni anno. Tutto ciò, però, sarebbe impossibile senza il contributo di volontari, enti e privati. Aiutaci oggi stesso a realizzare il nostro sogno!"
 }
 
 export default function Progetti({posts}){

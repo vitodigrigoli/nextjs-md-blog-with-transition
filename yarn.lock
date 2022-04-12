@@ -1333,9 +1333,9 @@
     "brace-expansion" "^1.1.7"
 
 "minimist@^1.2.0":
-  "integrity" "sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw=="
-  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
-  "version" "1.2.5"
+  "integrity" "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q=="
+  "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
+  "version" "1.2.6"
 
 "ms@^2.1.1":
   "integrity" "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA=="
@@ -1968,10 +1968,10 @@
   dependencies:
     "has-flag" "^4.0.0"
 
-"swiper@^8.0.6":
-  "integrity" "sha512-Ssyu1+FeNATF/G8e84QG+ZUNtUOAZ5vngdgxzczh0oWZPhGUVgkdv+BoePUuaCXLAFXnwVpNjgLIcGnxMdmWPA=="
-  "resolved" "https://registry.npmjs.org/swiper/-/swiper-8.0.6.tgz"
-  "version" "8.0.6"
+"swiper@^8.1.0":
+  "integrity" "sha512-Py2vuk7Nb3xlZMB2e201DQkjslTb6Uaju6wvr4BB7VjWrouSZegA0QjbxDVheJOsbKMUV092iDL3kymPBbuVzw=="
+  "resolved" "https://registry.npmjs.org/swiper/-/swiper-8.1.0.tgz"
+  "version" "8.1.0"
   dependencies:
     "dom7" "^4.0.4"
     "ssr-window" "^4.0.2"

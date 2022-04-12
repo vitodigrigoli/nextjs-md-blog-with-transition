@@ -7,7 +7,7 @@ import Gallery from "../components/Gallery";
 
 const HeroText = {
 	title: 'I nostri <span class="orange">Festival</span> [25]',
-	text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [250]"
+	text: "I Festival sono i momenti dove amiamo metterci in gioco in prima persona, tutti insieme come una comunità. Tramite le attività che proponiamo, interagiamo con gli altri, in maniera autonoma e consapevole. Solo così può esserci una vera crescita e un vero inserimento sociale."
 }
 
 const bannerText = {
