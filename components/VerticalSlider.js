@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.defaults({ease: "none", duration: 3})
 
 
-export default function VerticalSlider({title, text, withButton}){
+export default function VerticalSlider({title, text, link, withButton}){
 
 	let col_up = useRef(null)
 	let col_down = useRef(null)
@@ -39,7 +39,7 @@ export default function VerticalSlider({title, text, withButton}){
 					<h2 dangerouslySetInnerHTML={ {__html: title}}/>
 					<p className='dash dash--yellow'>{text}</p>
 					{
-						withButton &&	<Button text="Scopri i progetti" link="/" isWhite/>
+						withButton &&	<Button text="Scopri di più" link={link} isWhite/>
 					}
 				</div>
 				<div className="v-slider__images">

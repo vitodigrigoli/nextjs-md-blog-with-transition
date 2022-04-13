@@ -1,6 +1,6 @@
 import Button from  './Button'
 
-export default function Banner({title, text, withButton}){
+export default function Banner({title, text, link, withButton}){
 	return(
 		<section className="banner">
 			<div className="container">
@@ -12,7 +12,7 @@ export default function Banner({title, text, withButton}){
 			{
 				withButton &&
 				<div className="banner__cta">
-					<Button text="Call to action" link="/" isLight/>
+					<Button text="Aiutaci ora" link={link} isLight />
 				</div>
 			}
 		</section>

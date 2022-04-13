@@ -16,19 +16,18 @@ const bannerText_1 = {
 	text: "Qui a L’ARCA si cresce ogni giorno tutti insieme! Non solo i ragazzi ma anche le loro famiglie, lo staff e i volontari imparano, un’attività alla volta, cosa vuol dire integrazione, crescita e consapevolezza individuale in un contesto sociale."
 }
 
-const bannerText_2 = {
-	title: "La diversità è un dono da scoprire",
-	text: "Qui a L’ARCA, ognuno dei ragazzi sa di poter trovare un luogo sicuro e confertovele dove poter avviare un percorso di crescità interiore e sociale, per divenire una persona autonoma e che si sappia relazionare con gli altri e il mondo esterno. La diversità va capita e ascoltata."
-}
+
 
 const verticalSliderText_1 = {
 	title: 'Imparare <span class="orange">divertendosi</span>',
-	text: "Ogni attività e laboratorio viene accuratamente pensato per mettere alla prova e sviluppare le capacità dei nostri ragazzi. Dall’artigianato al teatro, dalla musica alla cucina, qui a L’ARCA non ci si annoia mai!"
+	text: "Ogni attività e laboratorio viene accuratamente pensato per mettere alla prova e sviluppare le capacità dei nostri ragazzi. Dall’artigianato al teatro, dalla musica alla cucina, qui a L’ARCA non ci si annoia mai!",
+	link: "/progetti"
 }
 
 const verticalSliderText_2 = {
 	title: '<span class="orange">Zimbardo-Luczo</span> Fund',
-	text: "ZL Fund è da sempre uno strumento essenziale per lo sviluppo e la valorizzazione socio-culturale delle risorse umane ed è grazie al loro continuo supporto che abbiamo potuto realizzare nel corso degli anni tante attività per tutti i nostri ragazzi, aiutandoli a farli divenire ciò che sono oggi."
+	text: "ZL Fund è da sempre uno strumento essenziale per lo sviluppo e la valorizzazione socio-culturale delle risorse umane ed è grazie al loro continuo supporto che abbiamo potuto realizzare nel corso degli anni tante attività per tutti i nostri ragazzi, aiutandoli a farli divenire ciò che sono oggi.",
+	link: "http://www.zl-fund.org/"
 }
 
 const postText = {
@@ -90,11 +89,10 @@ export default function Index() {
 		<>
 			<Hero title={HeroText.title} text={HeroText.text} media={'/loop.mp4'} isVideo />
 			<Banner title={bannerText_1.title} text={bannerText_1.text} />
-			<VerticalSlider title={verticalSliderText_1.title} text={verticalSliderText_1.text} withButton />
+			<VerticalSlider title={verticalSliderText_1.title} text={verticalSliderText_1.text} link={verticalSliderText_1.link} withButton />
 			<Posts posts={posts}/>
 			<Focuses title={focuses.title}  focuses={focuses.list}/>
-			<VerticalSlider title={verticalSliderText_2.title} text={verticalSliderText_2.text} withButton />
-			<Banner title={bannerText_2.title} text={bannerText_2.text} withButton />
+			<VerticalSlider title={verticalSliderText_2.title} text={verticalSliderText_2.text} link={verticalSliderText_2.link} withButton />
 		</>
 	);
 }
