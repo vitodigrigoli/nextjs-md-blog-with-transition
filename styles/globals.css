@@ -70,9 +70,12 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 /* Button
 ------------------------------------------------------------------------- */
 .button{display: inline-block; background-color: var(--blue); padding: 13px 15px; border-radius: 6px; color: white; font-size: 14px;transition: 0.3s; margin-top: 5vh;}
+
 .button--light{ border: 2px solid var(--blue); background-color: transparent; color: var(--blue); }
 .button--light:hover{background-color: var(--blue); color: white;}
 
+.button--white{ border: 2px solid white; background-color: transparent; color: white; text-shadow: none }
+.button--white:hover{background-color: white; color: var(--blue);}
 
 /* Navbar
 ------------------------------------------------------------------------- */

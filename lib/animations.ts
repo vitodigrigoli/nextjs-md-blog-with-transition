@@ -51,7 +51,7 @@ const fadeBack = {
   variants: {
     initial: {
       opacity: 0,
-      scale: 0.4
+      scale: 1
     },
     animate: {
       opacity: 1,
@@ -59,11 +59,11 @@ const fadeBack = {
     },
     exit: {
       opacity: 0,
-      scale: 0.4
+      scale: 1
     }
   },
   transition: {
-    duration: 0.7
+    duration: 0.4
   }
 };
 

@@ -3,10 +3,13 @@ import Image from "next/image";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import {useEffect, useRef,} from "react";
+import Button from "./Button";
 
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.defaults({ease: "none", duration: 3})
+
+
 export default function VerticalSlider({title, text, withButton}){
 
 	let col_up = useRef(null)
@@ -35,6 +38,9 @@ export default function VerticalSlider({title, text, withButton}){
 				<div className="v-slider__text">
 					<h2 dangerouslySetInnerHTML={ {__html: title}}/>
 					<p className='dash dash--yellow'>{text}</p>
+					{
+						withButton &&	<Button text="Scopri i progetti" link="/" isWhite/>
+					}
 				</div>
 				<div className="v-slider__images">
 

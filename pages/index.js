@@ -95,7 +95,6 @@ export default function Index() {
 			<Focuses title={focuses.title}  focuses={focuses.list}/>
 			<VerticalSlider title={verticalSliderText_2.title} text={verticalSliderText_2.text} withButton />
 			<Banner title={bannerText_2.title} text={bannerText_2.text} withButton />
-
 		</>
 	);
 }

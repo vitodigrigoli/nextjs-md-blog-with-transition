@@ -10,7 +10,7 @@ import "../styles/globals.css"
 function MyApp({ Component, pageProps, router }: AppProps) {
   const anim_type = 2;
   const animation = animations[anim_type];
-  const exitBefore = false;
+  const exitBefore = true;
 
   console.log('exit before ',exitBefore)
   return (
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <Navbar />
       </div>
       <LazyMotion features={domAnimation}>
-        <AnimatePresence exitBeforeEnter={!exitBefore} >
+        <AnimatePresence exitBeforeEnter={exitBefore} >
           <m.div
             key={router.route.concat(animation.name)}
             className="page-wrap"
