@@ -21,14 +21,32 @@ const bannerText_1 = {
 const verticalSliderText_1 = {
 	title: 'Imparare <span class="orange">divertendosi</span>',
 	text: "Ogni attività e laboratorio viene accuratamente pensato per mettere alla prova e sviluppare le capacità dei nostri ragazzi. Dall’artigianato al teatro, dalla musica alla cucina, qui a L’ARCA non ci si annoia mai!",
-	link: "/progetti"
+	link: "/progetti",
+	media: [
+		"/progetti/progetti_1.jpg",
+		"/progetti/progetti_2.jpg",
+		"/progetti/progetti_3.jpg",
+		"/progetti/progetti_4.jpg",
+		"/progetti/progetti_5.jpg",
+		"/progetti/progetti_7.jpg",
+	]
 }
 
 const verticalSliderText_2 = {
 	title: '<span class="orange">Zimbardo-Luczo</span> Fund',
 	text: "ZL Fund è da sempre uno strumento essenziale per lo sviluppo e la valorizzazione socio-culturale delle risorse umane ed è grazie al loro continuo supporto che abbiamo potuto realizzare nel corso degli anni tante attività per tutti i nostri ragazzi, aiutandoli a farli divenire ciò che sono oggi.",
-	link: "http://www.zl-fund.org/"
+	link: "http://www.zl-fund.org/",
+	media: [
+		"/zimbardo/zimbardo-luczo_1.jpg",
+		"/zimbardo/zimbardo-luczo_2.jpg",
+		"/zimbardo/zimbardo-luczo_3.jpg",
+		"/zimbardo/zimbardo-luczo_4.jpg",
+		"/zimbardo/zimbardo-luczo_5.jpg",
+		"/zimbardo/zimbardo-luczo_6.jpg",
+	]
+
 }
+
 
 const postText = {
 	title: 'Lorem ipsum dolor <span class="yellow">sit amet</span> [25]',
@@ -85,14 +103,15 @@ const focuses = {
 }
 
 export default function Index() {
+
 	return (
 		<>
 			<Hero title={HeroText.title} text={HeroText.text} media={'/loop.mp4'} isVideo />
 			<Banner title={bannerText_1.title} text={bannerText_1.text} />
-			<VerticalSlider title={verticalSliderText_1.title} text={verticalSliderText_1.text} link={verticalSliderText_1.link} withButton />
+			<VerticalSlider title={verticalSliderText_1.title} text={verticalSliderText_1.text} link={verticalSliderText_1.link} data={verticalSliderText_1.media}  withButton />
 			<Posts posts={posts}/>
 			<Focuses title={focuses.title}  focuses={focuses.list}/>
-			<VerticalSlider title={verticalSliderText_2.title} text={verticalSliderText_2.text} link={verticalSliderText_2.link} withButton />
+			<VerticalSlider title={verticalSliderText_2.title} text={verticalSliderText_2.text} link={verticalSliderText_2.link} data={verticalSliderText_2.media} withButton />
 		</>
 	);
 }
