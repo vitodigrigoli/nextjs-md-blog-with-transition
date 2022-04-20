@@ -5,6 +5,7 @@ import Posts from "../components/Posts";
 import img from "../public/referal.jpg";
 import Footer from "../components/Footer";
 import Focuses from "../components/Focuses";
+import Head from 'next/head'
 
 const HeroText = {
 	title: 'Al fianco delle <span class="orange">diversità</span>',
@@ -106,6 +107,9 @@ export default function Index() {
 
 	return (
 		<>
+			<Head>
+				<title>My page title</title>
+			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={'/loop.mp4'} isVideo />
 			<Banner title={bannerText_1.title} text={bannerText_1.text} />
 			<VerticalSlider title={verticalSliderText_1.title} text={verticalSliderText_1.text} link={verticalSliderText_1.link} data={verticalSliderText_1.media}  withButton />
