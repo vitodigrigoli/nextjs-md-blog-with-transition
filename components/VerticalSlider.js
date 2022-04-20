@@ -62,7 +62,7 @@ export default function VerticalSlider({title, text, link, withButton, data}){
 
 					<div className="col" id="col-up" ref={el => {col_up = el}}>
 						{
-							media.slice( 3, 5 ).map( ( media, i ) => {
+							media.slice( 3, 6 ).map( ( media, i ) => {
 								return(
 									<div className="v-slider__images__img" key={i}>
 										<Image src={media} alt=""  width="100%" height="150%" layout="responsive" objectFit="cover"/>

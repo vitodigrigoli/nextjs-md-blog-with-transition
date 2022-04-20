@@ -20,7 +20,9 @@ export default function Navbar(){
 
 					</div>
 				<div className='navbar__logo'>
-					<Image src={logo}	alt="logo arca"/>
+					<Link href={"/"}>
+						<a><Image src={logo}	alt="logo arca"/></a>
+					</Link>
 				</div>
 				<div className={`navbar__menu ${isOpen ? 'navbar__menu--open' : ''}`} >
 					<ul>

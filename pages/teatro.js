@@ -4,7 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
-import cover from '/public/referal.jpg'
+import cover from "../public/piccolo-principe/piccolo-principe-9.jpg"
 import {useEffect} from "react";
 
 const HeroText = {

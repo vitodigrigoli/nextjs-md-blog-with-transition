@@ -1,10 +1,10 @@
 ---
 title: 'Il Piccolo Principe'
 date: 'March 4, 2020'
-excerpt: 'We will look at 10 simple tips and tricks to increase the speed of your code when writing JS'
+excerpt: 'La nostra personale interpretazione del grande classico in cui hanno partecipato tutor, volontari e ovviamente i nostri ragazzi.'
 cover_image: '/piccolo-principe/piccolo-principe-4.jpg'
 category: 'teatro'
-gallery: ['/piccolo-principe/piccolo-principe-1.jpg', '/piccolo-principe/piccolo-principe-2.jpg', '/piccolo-principe/piccolo-principe-3.jpg', '/piccolo-principe/piccolo-principe-4.jpg', '/piccolo-principe/piccolo-principe-5.jpg' ]
+gallery: ['/piccolo-principe/piccolo-principe-1.jpg', '/piccolo-principe/piccolo-principe-2.jpg', '/piccolo-principe/piccolo-principe-3.jpg', '/piccolo-principe/piccolo-principe-4.jpg', '/piccolo-principe/piccolo-principe-5.jpg', '/piccolo-principe/piccolo-principe-6.jpg' , '/piccolo-principe/piccolo-principe-7.jpg' , '/piccolo-principe/piccolo-principe-8.jpg' , '/piccolo-principe/piccolo-principe-9.jpg' , '/piccolo-principe/piccolo-principe-10.jpg' , '/piccolo-principe/piccolo-principe-11.jpg' , '/piccolo-principe/piccolo-principe-12.jpg' , '/piccolo-principe/piccolo-principe-13.jpg' , '/piccolo-principe/piccolo-principe-14.jpg' , '/piccolo-principe/piccolo-principe-15.jpg' , '/piccolo-principe/piccolo-principe-16.jpg' , '/piccolo-principe/piccolo-principe-17.jpg' , '/piccolo-principe/piccolo-principe-18.jpg' , '/piccolo-principe/piccolo-principe-19.jpg' , '/piccolo-principe/piccolo-principe-20.jpg' , '/piccolo-principe/piccolo-principe-21.jpg' , '/piccolo-principe/piccolo-principe-22.jpg' , '/piccolo-principe/piccolo-principe-23.jpg'  ]
 ---
 
 # Perché scegliere il piccolo principe?
@@ -41,4 +41,4 @@ A racchiudere il tutto la cornice, dove si incontra la Voce Narrante. È lei che
 La Voce Narrante è il filo conduttore, guida lo spettatore nell'esplorazione della storia, ma è anche la proiezione di chiunque abbia letto il libro e lo abbia immaginato e ambientato in luoghi familiari e amati.
 
 ## Conclusioni
-Il nostro Piccolo Principe è il frutto di un'ampia collaborazione. I ragazzi che hanno partecipato ai laboratori, i tutor, i volontari, tutti hanno contribuito alla riuscita del progetto, anche se le difficoltà dovute all'emergenza sanitaria non sono mancate. La cosa più bello p che sono nate amicizie, sono stati creati legami, insomma, ci siamo addomesticati a vicenda...
+Il nostro Piccolo Principe è il frutto di un'ampia collaborazione. I ragazzi che hanno partecipato ai laboratori, i tutor, i volontari, tutti hanno contribuito alla riuscita del progetto, anche se le difficoltà dovute all'emergenza sanitaria non sono mancate. La cosa più bella è che sono nate amicizie, sono stati creati legami, insomma, ci siamo addomesticati a vicenda...

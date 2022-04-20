@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import cover from "../public/referal.jpg";
+import cover from "../public/contatti-1.jpg";
 import Banner from "../components/Banner";
 import Form from "../components/Form";
 import {useState} from "react";

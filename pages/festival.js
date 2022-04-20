@@ -3,87 +3,101 @@ import cover from "../public/referal.jpg";
 import Banner from "../components/Banner";
 import Focuses from "../components/Focuses";
 import Gallery from "../components/Gallery";
+import cover_1 from "../public/festival/festival-1.jpg";
+import cover_3 from "../public/festival/festival-3.jpg";
+import cover_4 from "../public/festival/festival-4.jpg";
+import cover_5 from "../public/festival/festival-5.jpg";
+import cover_6 from "../public/festival/festival-6.jpg";
+import cover_7 from "../public/festival/festival-7.jpg";
+import cover_8 from "../public/festival/festival-8.jpg";
+import cover_9 from "../public/festival/festival-9.jpg";
+import cover_10 from "../public/festival/festival-10.jpg";
+
 
 
 const HeroText = {
-	title: 'I nostri <span class="orange">Festival</span> [25]',
-	text: "I Festival sono i momenti dove amiamo metterci in gioco in prima persona, tutti insieme come una comunità. Tramite le attività che proponiamo, interagiamo con gli altri, in maniera autonoma e consapevole. Solo così può esserci una vera crescita e un vero inserimento sociale."
+	title: 'I nostri <span class="orange">Festival</span>',
+	text: "I Festival sono i momenti dove amiamo metterci in gioco in prima persona, tutti insieme come una comunità."
 }
 
 const bannerText = {
-	title: "Lorem ipsum dolor sit amet [25]",
-	text: "I Festival sono i momenti dove amiamo metterci in gioco in prima persona, tutti insieme come una comunità. Tramite le attività che proponiamo, interagiamo con gli altri, in maniera autonoma e consapevole. Solo così può esserci una vera crescita e un vero inserimento sociale."
+	title: "L'integrazione è fondamentale",
+	text: "Tramite le attività che proponiamo, interagiamo con gli altri, in maniera autonoma e consapevole. Solo così può esserci una vera crescita e un vero inserimento sociale."
 }
 
 const focuses = {
-	title: 'Lorem ipsum dolor sit amet [25]',
+	title: 'Finalità dei festival',
 	list: [
 		{
-			title: "Laboratorio #1",
-			text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [150]"
+			title: "Coordinazione motoria",
+			text: "Migliorare la capacità di coordinazione dinamica generale, unitamente a quella senso-percettiva, visiva e uditiva relativamente all'organizzazione del movimento."
 		},
 		{
-			title: "Laboratorio #2",
-			text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [150]"
+			title: "Trasmettere emozioni",
+			text: "Potenziare la capacità di espressione artistica (di ballo, musicale, canora) scoprendo e valorizzando le tradizioni popolari."
 		},
 		{
-			title: "Laboratorio #3",
-			text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [150]"
+			title: "Divertirsi insieme",
+			text: "Garantire momenti di svago e sano divertimento coinvolgendo anche i familiari nell'esperienza artistica."
 		},
 		{
-			title: "Laboratorio #4",
-			text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [150]"
+			title: "Integrazione",
+			text: "Aiutare a stimolare il raggiungimento delle autonomie in un clima di solidarietà e integrazione fra disabili e normodotati."
 		},
 	]
 }
 
-const galleryText = {
-	title: 'Lorem ipsum dolor sit amet [25]',
-	images: [
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-		{
-			original: cover.src,
-			thumbnail: cover.src,
-		},
-	]
-}
+const gallery = [
+	{
+		original: cover_1.src,
+		thumbnail: cover_1.src,
+	},
+
+	{
+		original: cover_3.src,
+		thumbnail: cover_3.src,
+	},
+
+	{
+		original: cover_4.src,
+		thumbnail: cover_4.src,
+	},
+
+	{
+		original: cover_5.src,
+		thumbnail: cover_5.src,
+	},
+	{
+		original: cover_6.src,
+		thumbnail: cover_6.src,
+	},
+	{
+		original: cover_7.src,
+		thumbnail: cover_7.src,
+	},
+	{
+		original: cover_8.src,
+		thumbnail: cover_8.src,
+	},
+	{
+		original: cover_9.src,
+		thumbnail: cover_9.src,
+	},
+	{
+		original: cover_10.src,
+		thumbnail: cover_10.src,
+	},
+]
 
 
 
 export default function Festival(){
 	return(
 		<>
-			<Hero title={HeroText.title} text={HeroText.text} media={cover} />
-			<Banner title={bannerText.title} text={bannerText.text} withButton />
+			<Hero title={HeroText.title} text={HeroText.text} media={cover_6.src} />
+			<Banner title={bannerText.title} text={bannerText.text} />
 			<Focuses title={focuses.title}  focuses={focuses.list}/>
-			<Gallery title={galleryText.title} images={galleryText.images} />
+			<Gallery images={gallery} />
 		</>
 	)
 }

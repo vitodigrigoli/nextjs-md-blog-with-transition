@@ -57,7 +57,7 @@ const posts = [
 	{
 		title: 'Esprimersi con il <span class="yellow">teatro</span>',
 		text: "Il teatro svolge un ruolo molto importante nella nostra proposta di sensibilizzazione e crescita individuale. Il palcoscenico diventa infatti un luogo magico dove, tramite la messa in scena, ci si mette in gioco e si prende coscienza di se stessi.",
-		img: "./referal.jpg",
+		img: "/piccolo-principe/piccolo-principe-5.jpg",
 		link: "/teatro"
 	},
 
@@ -65,14 +65,14 @@ const posts = [
 		title: 'Mens sana in corpore <span class="yellow">sano</span>',
 		text: "La consapevolezza del proprio corpo e del movimento svolge un ruolo fondamentale nel percorso che intraprendiamo con i ragazzi. Tramite lo sport, a L’ARCA impariamo a relazionarci e a interagire con l’altro in maniera sana e costruttiva.",
 		link: "/sport",
-		img: "./referal.jpg",
+		img: "/sport/sport-2.jpg",
 	},
 
 	{
 		title: 'Insieme come una <span class="yellow">comunità</span>',
 		text: "Durante le manifestazioni e i festival in cui ci esibiamo e prendiamo parte in maniera attiva, coinvolgiamo anche i famigliari e le persone vicine ai ragazzi in modo da poter educare e sensibilizzare sempre più persone, tramite momenti di svago e socialità.",
 		link: "/festival",
-		img: "./referal.jpg",
+		img: "/festival/festival-6.jpg",
 	},
 ];
 

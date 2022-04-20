@@ -4,7 +4,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
-import cover from '/public/referal.jpg'
+import cover from "../public/insieme-per-integrazione/integrazione-4.jpg"
 
 const HeroText = {
 	title: 'I nostri <span class="orange">Progetti</span>',
