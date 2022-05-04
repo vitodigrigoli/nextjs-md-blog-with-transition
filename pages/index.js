@@ -48,12 +48,6 @@ const verticalSliderText_2 = {
 
 }
 
-
-const postText = {
-	title: 'Lorem ipsum dolor <span class="yellow">sit amet</span> [25]',
-	text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [250]"
-}
-
 const posts = [
 	{
 		title: 'Esprimersi con il <span class="yellow">teatro</span>',
@@ -108,7 +102,11 @@ export default function Index() {
 	return (
 		<>
 			<Head>
-				<title>My page title</title>
+				<title>Homepage</title>
+				<meta name="description" content="Da più di 18 anni aiutiamo ragazzi e adulti con disabilità mentali, relazionali e fisiche a perseguire percorsi di autonomia individuale e integrazione sociale, grazie a laboratori, attività culturali, didattiche e formative."/>
+				<meta property="og:title"              content="L'ARCA ONLUS" />
+				<meta property="og:description"        content="Da più di 18 anni aiutiamo ragazzi e adulti con disabilità mentali, relazionali e fisiche a perseguire percorsi di autonomia individuale e integrazione sociale, grazie a laboratori, attività culturali, didattiche e formative." />
+				<meta property="og:image"              content="../public/referal.jpg" />
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={'/loop.mp4'} isVideo />
 			<Banner title={bannerText_1.title} text={bannerText_1.text} />

@@ -13,6 +13,7 @@ import cover_7 from "../public/sport/sport-7.jpg";
 import cover_8 from "../public/sport/sport-8.jpg";
 import cover_9 from "../public/sport/sport-9.jpg";
 import cover_10 from "../public/sport/sport-10.jpg";
+import Head from "next/head";
 
 
 const HeroText = {
@@ -84,6 +85,13 @@ const gallery = [
 export default function Sport(){
 	return(
 		<>
+			<Head>
+				<title>Sport</title>
+				<meta name="description" content="Siamo la prima associazione sportiva per disabili del territorio di Cammarata, San Giovanni Gemini e paesi limitrofi, anche per via della varità di attività che proponiamo a tutti i ragazzi dell’associazione."/>
+				<meta property="og:title"              content="Le nostre attività sportive" />
+				<meta property="og:description"        content="Siamo la prima associazione sportiva per disabili del territorio di Cammarata, San Giovanni Gemini e paesi limitrofi, anche per via della varità di attività che proponiamo a tutti i ragazzi dell’associazione." />
+				<meta property="og:image"              content={cover_2} />
+			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover_2} />
 			<Banner title={bannerText.title} text={bannerText.text} />
 			<Focuses title={focuses.title}  focuses={focuses.list}/>

@@ -7,6 +7,8 @@ category: 'progetti'
 gallery: ['/insieme-per-integrazione/integrazione-4.jpg','/insieme-per-integrazione/integrazione-5.jpg','/insieme-per-integrazione/integrazione-6.jpg','/insieme-per-integrazione/integrazione-9.jpg','/insieme-per-integrazione/integrazione-10.jpg','/insieme-per-integrazione/integrazione-11.jpg','/insieme-per-integrazione/integrazione-12.jpg', '/insieme-per-integrazione/integrazione-13.jpg','/insieme-per-integrazione/integrazione-14.jpg','/insieme-per-integrazione/integrazione-16.jpg', ]
 ---
 
+> CUP J31E20000550008
+
 ##  Fasi progettuali
 
 I laboratori sono intesi come terapia occupazionale. Per le loro caratteristiche possono essere

@@ -6,10 +6,12 @@ import matter from 'gray-matter'
 import { sortByDate } from '../utils'
 import cover from "../public/piccolo-principe/piccolo-principe-9.jpg"
 import {useEffect} from "react";
+import Head from "next/head";
+import cover_1 from "../public/festival/festival-1.jpg";
 
 const HeroText = {
 	title: 'I nostri <span class="orange">spettacoli</span> teatrali',
-	text: "Il Teatro svolge un ruolo fondamentale nella nostra proposta formativa: abbiamo allestito più di (fatti dire un numero approssimativo) negli ultimi anni, con grande gioia e partecipazione dei nostri ragazzi e di tutta la comunità. Gli spettacoli sono divenuti ormai dei momenti imprescindibili di crescita umana e sociale."
+	text: "Il Teatro svolge un ruolo fondamentale nella nostra proposta formativa, con grande gioia e partecipazione dei nostri ragazzi e di tutta la comunità. Gli spettacoli sono divenuti ormai dei momenti imprescindibili di crescita umana e sociale."
 }
 
 export default function Teatro({posts}){
@@ -18,6 +20,13 @@ export default function Teatro({posts}){
 	}, [posts])
 	return(
 		<>
+			<Head>
+				<title>Teatro</title>
+				<meta name="description" content="Il Teatro svolge un ruolo fondamentale nella nostra proposta formativa, con grande gioia e partecipazione dei nostri ragazzi e di tutta la comunità"/>
+				<meta property="og:title"              content="I nostri spettacoli teatrali" />
+				<meta property="og:description"        content="Il Teatro svolge un ruolo fondamentale nella nostra proposta formativa, con grande gioia e partecipazione dei nostri ragazzi e di tutta la comunità" />
+				<meta property="og:image"              content={cover} />
+			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover} />
 			<div className='posts'>
 				{posts.map((post, index) => (

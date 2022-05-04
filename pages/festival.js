@@ -12,6 +12,7 @@ import cover_7 from "../public/festival/festival-7.jpg";
 import cover_8 from "../public/festival/festival-8.jpg";
 import cover_9 from "../public/festival/festival-9.jpg";
 import cover_10 from "../public/festival/festival-10.jpg";
+import Head from "next/head";
 
 
 
@@ -94,6 +95,13 @@ const gallery = [
 export default function Festival(){
 	return(
 		<>
+			<Head>
+				<title>Festival</title>
+				<meta name="description" content="I Festival sono i momenti dove amiamo metterci in gioco in prima persona, tutti insieme come una comunità."/>
+				<meta property="og:title"              content="I nostri Festival" />
+				<meta property="og:description"        content="I Festival sono i momenti dove amiamo metterci in gioco in prima persona, tutti insieme come una comunità." />
+				<meta property="og:image"              content={cover_1} />
+			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover_6.src} />
 			<Banner title={bannerText.title} text={bannerText.text} />
 			<Focuses title={focuses.title}  focuses={focuses.list}/>

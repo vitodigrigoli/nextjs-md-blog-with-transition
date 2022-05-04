@@ -36,6 +36,13 @@ ol li{margin-left: 3em; padding: 0.5em 5px;}
 img{width: 100%; height: auto;}
 hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2px; background-color: var(--black); opacity: 0.3; }
 
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid var(--yellow);
+  padding: 1em;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote p { display: inline; }
 
 /* Helpers
 ------------------------------------------------------------------------- */
@@ -284,6 +291,7 @@ hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2p
 .article h6 {margin-block: 2em 1em; text-transform: uppercase}
 .article p{margin-block: 0 1em }
 .article ol li{line-height: 30px}
+
 
 @media (max-width: 1024px) {
   .article__sidebar{width: 250px}

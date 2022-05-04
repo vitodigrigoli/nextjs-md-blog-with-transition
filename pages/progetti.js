@@ -5,6 +5,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import { sortByDate } from '../utils'
 import cover from "../public/insieme-per-integrazione/integrazione-4.jpg"
+import Head from "next/head";
+import cover_1 from "../public/festival/festival-1.jpg";
 
 const HeroText = {
 	title: 'I nostri <span class="orange">Progetti</span>',
@@ -14,6 +16,13 @@ const HeroText = {
 export default function Progetti({posts}){
 	return(
 		<>
+			<Head>
+				<title>Progetti</title>
+				<meta name="description" content="L’ARCA non si ferma mai! Tanti sono i progetti che abbiamo realizzato nel corso degli anni e tantissimi sono quelli che pensiamo e mettiamo su ogni anno."/>
+				<meta property="og:title"              content="I nostri Progetti" />
+				<meta property="og:description"        content="L’ARCA non si ferma mai! Tanti sono i progetti che abbiamo realizzato nel corso degli anni e tantissimi sono quelli che pensiamo e mettiamo su ogni anno." />
+				<meta property="og:image"              content={cover} />
+			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover} />
 			<div className='posts'>
 				{posts.map((post, index) => (

@@ -3,6 +3,7 @@ import cover from "../public/contatti-1.jpg";
 import Banner from "../components/Banner";
 import Form from "../components/Form";
 import {useState} from "react";
+import Head from "next/head";
 
 
 const HeroText = {
@@ -55,6 +56,13 @@ export default function Contatti(){
 
 	return(
 		<>
+			<Head>
+				<title>Contatti</title>
+				<meta name="description" content="Se vuoi saperne di più sulla nostra storia, la nostra realtà e i nostri obiettivi, non esitare a contattarci!"/>
+				<meta property="og:title"              content="I nostri Contatti" />
+				<meta property="og:description"        content="Se vuoi saperne di più sulla nostra storia, la nostra realtà e i nostri obiettivi, non esitare a contattarci!" />
+				<meta property="og:image"              content={cover} />
+			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover} />
 			<Form title={formText.title} data={email} handleChange={handleChange} handleSubmit={handleSubmit}/>
 		</>
