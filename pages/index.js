@@ -113,7 +113,7 @@ export default function Index() {
 				`}
 				</script>
 				<script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"/>
-				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async/>
+				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" />
 
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={'/loop.mp4'} isVideo />

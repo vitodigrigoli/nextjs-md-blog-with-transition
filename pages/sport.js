@@ -97,7 +97,7 @@ export default function Sport(){
 				`}
 				</script>
 				<script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"/>
-				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async/>
+				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" />
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover_2} />
 			<Banner title={bannerText.title} text={bannerText.text} />
