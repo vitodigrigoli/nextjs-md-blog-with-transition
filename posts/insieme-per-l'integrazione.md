@@ -6,6 +6,7 @@ cover_image: '/insieme-per-integrazione/integrazione-10.jpg'
 category: 'progetti'
 gallery: ['/insieme-per-integrazione/integrazione-4.jpg','/insieme-per-integrazione/integrazione-5.jpg','/insieme-per-integrazione/integrazione-6.jpg','/insieme-per-integrazione/integrazione-9.jpg','/insieme-per-integrazione/integrazione-10.jpg','/insieme-per-integrazione/integrazione-11.jpg','/insieme-per-integrazione/integrazione-12.jpg', '/insieme-per-integrazione/integrazione-13.jpg','/insieme-per-integrazione/integrazione-14.jpg','/insieme-per-integrazione/integrazione-16.jpg', ]
 ---
+> Progetto finanziato dalla Presidenza del Consiglio dei Ministri - Dipartimento per le politiche giovanili e il servizio civile universale -  Piano azione coesione Avviso "Giovani per il Sociale 2008"
 
 > CUP J31E20000550008
 

@@ -23,8 +23,6 @@ export default function Focuses({title, focuses}){
 					modules={[Pagination, Autoplay,]}
 					grabCursor={true}
 					slidesPerView={1}
-					onSlideChange={() => console.log('slide change')}
-					onSwiper={(swiper) => console.log(swiper)}
 				>
 
 				{

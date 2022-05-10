@@ -28,10 +28,10 @@ export default function Footer(){
 			<div className="footer__info">
 				<h3>Contattaci</h3>
 				<p><a href="mailto:info@arcacammarata.org">info@arcacammarata.org</a></p>
-				<p>Telefono: <a href="tel:3310002115">331 000 2115</a></p>
+				<p>Telefono: <a href="tel:3282160181">328 216 0181</a></p>
 				<p>
-					<a href="" className="social-icon"><FontAwesomeIcon icon={faFacebook}/></a>
-					<a href="" className="social-icon"><FontAwesomeIcon icon={faInstagram}/></a>
+					<a href="https://www.facebook.com/Associaz%C3%ACone-LArca-1023082317760007" className="social-icon"><FontAwesomeIcon icon={faFacebook}/></a>
+					<a href="https://www.instagram.com/associazionelarca/" className="social-icon"><FontAwesomeIcon icon={faInstagram}/></a>
 				</p>
 			</div>
 		</div>
@@ -41,7 +41,7 @@ export default function Footer(){
 					<p>Made with <FontAwesomeIcon icon={faHeart}  /> by <a href="https://geforge.it/">GeForGe</a></p>
 				</div>
 				<div className="subfooter__policy">
-					<p><a href="">Privacy</a> - <a href="">Cookie</a></p>
+					<p><a href="https://www.iubenda.com/privacy-policy/65568793">Privacy</a> - <a href="https://www.iubenda.com/privacy-policy/65568793/cookie-policy">Cookie</a></p>
 				</div>
 			</div>
 

@@ -107,6 +107,14 @@ export default function Index() {
 				<meta property="og:title"              content="L'ARCA ONLUS" />
 				<meta property="og:description"        content="Da più di 18 anni aiutiamo ragazzi e adulti con disabilità mentali, relazionali e fisiche a perseguire percorsi di autonomia individuale e integrazione sociale, grazie a laboratori, attività culturali, didattiche e formative." />
 				<meta property="og:image"              content="../public/referal.jpg" />
+				<script type="text/javascript">{`
+					var _iub = _iub || [];
+					_iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"ccpaApplies":true,"consentOnContinuedBrowsing":false,"enableCcpa":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"perPurposeConsent":true,"siteId":2645131,"whitelabel":false,"cookiePolicyId":65568793,"lang":"it", "banner":{"acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#3b7480","acceptButtonDisplay":true,"backgroundColor":"#FFFFFF","backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#dadadaB5","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-bottom-center","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#3b7480","rejectButtonDisplay":true,"textColor":"#000000"}};
+				`}
+				</script>
+				<script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"/>
+				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" async/>
+
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={'/loop.mp4'} isVideo />
 			<Banner title={bannerText_1.title} text={bannerText_1.text} />

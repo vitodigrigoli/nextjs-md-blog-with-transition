@@ -3,8 +3,6 @@ import img from "../public/referal.jpg";
 
 export default function Posts({posts}){
 
-
-
 	return(
 		<section className="posts">
 			{

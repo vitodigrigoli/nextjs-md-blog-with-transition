@@ -6,6 +6,9 @@ import Footer from "../components/Footer"
 import Banner from "../components/Banner"
 import { animations } from "../lib/animations"
 import "../styles/globals.css"
+import CookieConsent from "react-cookie-consent";
+
+
 
 const bannerText = {
     title: "Il tuo sostegno è importante",
@@ -18,7 +21,17 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   const animation = animations[anim_type];
   const exitBefore = true;
 
-  console.log('exit before ',exitBefore)
+    const iubendaImplementation =
+        `
+        <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"ccpaApplies":true,"consentOnContinuedBrowsing":false,"enableCcpa":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"perPurposeConsent":true,"siteId":2645131,"whitelabel":false,"cookiePolicyId":65568793,"lang":"it", "banner":{ "acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#3b7480","acceptButtonDisplay":true,"backgroundColor":"#FFFFFF","backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#dadadaB5","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-bottom-center","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#3b7480","rejectButtonDisplay":true,"textColor":"#000000" }};
+        </script>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"/>
+        <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async/>
+        <script>console.log('ciaoo')</script>
+      `
+
   return (
     <div>
       <div className="ui-wrap">
@@ -35,6 +48,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
             variants={animation.variants}
             transition={animation.transition}
           >
+
             <Component {...pageProps} />
               <Banner title={bannerText.title} text={bannerText.text} link={bannerText.link} withButton />
               <Footer/>
