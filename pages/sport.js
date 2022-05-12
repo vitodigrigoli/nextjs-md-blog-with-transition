@@ -91,13 +91,6 @@ export default function Sport(){
 				<meta property="og:title"              content="Le nostre attività sportive" />
 				<meta property="og:description"        content="Siamo la prima associazione sportiva per disabili del territorio di Cammarata, San Giovanni Gemini e paesi limitrofi, anche per via della varità di attività che proponiamo a tutti i ragazzi dell’associazione." />
 				<meta property="og:image"              content={cover_2} />
-				<script type="text/javascript">{`
-					var _iub = _iub || [];
-					_iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"ccpaApplies":true,"consentOnContinuedBrowsing":false,"enableCcpa":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"perPurposeConsent":true,"siteId":2645131,"whitelabel":false,"cookiePolicyId":65568793,"lang":"it", "banner":{"acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#3b7480","acceptButtonDisplay":true,"backgroundColor":"#FFFFFF","backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#dadadaB5","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-bottom-center","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#3b7480","rejectButtonDisplay":true,"textColor":"#000000"}};
-				`}
-				</script>
-				<script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"/>
-				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" />
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover_2} />
 			<Banner title={bannerText.title} text={bannerText.text} />

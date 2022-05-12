@@ -101,14 +101,6 @@ export default function Festival(){
 				<meta property="og:title"              content="I nostri Festival" />
 				<meta property="og:description"        content="I Festival sono i momenti dove amiamo metterci in gioco in prima persona, tutti insieme come una comunità." />
 				<meta property="og:image"              content={cover_1} />
-				<script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"/>
-				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" />
-				<script type="text/javascript">{`
-					var _iub = _iub || [];
-					_iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"ccpaApplies":true,"consentOnContinuedBrowsing":false,"enableCcpa":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"perPurposeConsent":true,"siteId":2645131,"whitelabel":false,"cookiePolicyId":65568793,"lang":"it", "banner":{"acceptButtonCaptionColor":"#FFFFFF","acceptButtonColor":"#3b7480","acceptButtonDisplay":true,"backgroundColor":"#FFFFFF","backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#dadadaB5","customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-bottom-center","rejectButtonCaptionColor":"#FFFFFF","rejectButtonColor":"#3b7480","rejectButtonDisplay":true,"textColor":"#000000"}};
-				`}
-				</script>
-
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover_6.src} />
 			<Banner title={bannerText.title} text={bannerText.text} />
