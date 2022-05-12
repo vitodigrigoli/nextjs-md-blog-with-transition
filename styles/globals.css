@@ -35,7 +35,7 @@ ol li{margin-left: 3em; padding: 0.5em 5px;}
 
 img{width: 100%; height: auto;}
 hr{display: block; width: 80%; position: relative; margin: 30px auto; height: 2px; background-color: var(--black); opacity: 0.3; }
-
+button{outline: none; border: none;}
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid var(--yellow);
@@ -190,7 +190,7 @@ blockquote p { display: inline; }
 .v-slider__images__img img{position: relative; border-radius: 20px; }
 
 @media (max-width: 1024px) {
-  .v-slider{height: 60vh}
+  .v-slider{height: 80vh}
   .v-slider__text{width: 100%; }
   .v-slider__images{width: 100%;}
 }
@@ -198,6 +198,7 @@ blockquote p { display: inline; }
 @media (max-width: 500px) {
   .v-slider__images #col-up{transform: translateY(0%)}
   .v-slider__images #col-down{transform: translateY(-50%)}
+
 }
 
 
@@ -323,10 +324,10 @@ blockquote p { display: inline; }
   .contact__form{margin-top: 5vh}
 }
 
-
-
-
-
+/* Popup
+------------------------------------------------------------------------- */
+.popup{ width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.5); position: fixed; top: 0; left: 0;}
+.popup__text{ position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 5vh; font-size: clamp(14px, 1.2vw, 20px); background-color: white; color: var(--black); z-index: 100;  border-radius: 20px; background-color: rgba(255, 255, 255, 1); max-width: 600px; }
 
 
 

@@ -6,6 +6,7 @@ import {faHeart} from "@fortawesome/free-regular-svg-icons";
 import {faFacebook, faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 
+
 export default function Footer(){
 	return(
 		<footer className="footer" id={"contatti"}>
@@ -23,6 +24,7 @@ export default function Footer(){
 				<div className="footer__info">
 					<h3>Sostienici</h3>
 					<p>5 X MILLE - C.F. 93037270845</p>
+					<p>IT19C 08952 82860 000000 500234</p>
 				</div>
 
 			<div className="footer__info">

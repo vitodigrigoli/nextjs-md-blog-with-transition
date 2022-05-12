@@ -16,42 +16,10 @@ const bannerText = {
 	text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [250]"
 }
 
-const formText = {
-	title: "Lorem ipsum dolor sit amet [25]",
-	text: "Vestibulum porttitor nisl eget nulla vulputate, a maximus dolor ultricies. Cras ut nulla nec turpis porttitor dictum. Ut id dictum erat. [250]"
-}
-
 
 
 export default function Contatti(){
 
-	const [email, setEmail] = useState({
-		name: '',
-		email: '',
-		message: ''
-	})
-
-	const handleSubmit = ( event ) =>{
-		event.preventDefault()
-
-		console.log("il messaggio è stato inviato correttamente")
-		console.table(email)
-
-		setEmail({
-			name: '',
-			email: '',
-			message: '',
-		})
-	}
-
-	const handleChange = ( event ) =>{
-		event.persist()
-
-		setEmail({
-			...email,
-			[event.target.name]: event.target.value
-		})
-	}
 
 
 	return(
@@ -71,7 +39,7 @@ export default function Contatti(){
 				<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charSet="UTF-8" />
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={cover} />
-			<Form title={formText.title} data={email} handleChange={handleChange} handleSubmit={handleSubmit}/>
+			<Form />
 		</>
 	)
 }

@@ -35,7 +35,7 @@ export default function Navbar(){
 					</ul>
 				</div>
 				<div className='navbar__cta'>
-					<Link href='/'>
+					<Link href='https://gofund.me/27ba76e1'>
 						<a className="button">Fai una donazione</a>
 					</Link>
 				</div>
