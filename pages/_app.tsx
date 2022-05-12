@@ -26,10 +26,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <div>
       <div className="ui-wrap">
-          <Script
-              src="//cdn.iubenda.com/cs/ccpa/stub.js"
-              strategy="beforeInteractive"
-          />
 
         <Script
             id={'iubenda'}
