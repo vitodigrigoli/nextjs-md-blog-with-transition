@@ -107,6 +107,7 @@ blockquote p { display: inline; }
 .navbar__icon__bars--active #bar-2{ width: 50px; transform-origin: center; margin: 0; top: 50%; background-color: white; }
 .navbar__icon__bars--active #bar-1{ transform: rotate(45deg);  }
 .navbar__icon__bars--active #bar-2{ transform: rotate(-45deg)  }
+.d-none{display: none}
 
 @media (min-width: 769px) {
   .navbar__menu ul li{position: relative;}
@@ -132,6 +133,7 @@ blockquote p { display: inline; }
   .navbar__icon{ flex-direction: row-reverse;}
   .navbar__icon__bars{align-items: flex-end;}
   .navbar__cta{display: none;}
+  .d-none{display: block}
 }
 
 

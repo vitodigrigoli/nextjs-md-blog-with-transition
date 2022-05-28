@@ -33,7 +33,10 @@ export default function Form(){
 
 	const sendEmail = (e) => {
 		e.preventDefault();
-
+		setPopup({
+			isVisible: true,
+			text: 'Attendere...'
+		})
 		emailjs.sendForm('service_2euenml', 'template_f1f3n7h', form.current, 'PbXRJyi9zSxWdig6I')
 			.then((result) => {
 

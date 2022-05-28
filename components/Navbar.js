@@ -32,6 +32,7 @@ export default function Navbar(){
 						<li><Link href="/sport"><a onClick={toggleMenu}>Sport</a ></Link></li>
 						<li><Link href="/festival"><a onClick={toggleMenu}>Festival</a></Link></li>
 						<li><Link href="/contatti"><a onClick={toggleMenu}>Contatti</a></Link></li>
+						<li className={'d-none'}><Link href="https://gofund.me/27ba76e1"><a onClick={toggleMenu}>Fai una donazione</a></Link></li>
 					</ul>
 				</div>
 				<div className='navbar__cta'>

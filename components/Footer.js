@@ -4,6 +4,7 @@ import logo from '../public/logo-arca.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHeart} from "@fortawesome/free-regular-svg-icons";
 import {faFacebook, faInstagram} from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 
 
 
@@ -25,6 +26,7 @@ export default function Footer(){
 					<h3>Sostienici</h3>
 					<p>5 X MILLE - C.F. 93037270845</p>
 					<p>IT19C 08952 82860 000000 500234</p>
+					<p><Link href="https://gofund.me/27ba76e1"><a>Scopri la raccolta fondi</a></Link></p>
 				</div>
 
 			<div className="footer__info">
