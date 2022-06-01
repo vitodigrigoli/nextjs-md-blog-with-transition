@@ -2,10 +2,11 @@ import Hero from '../components/Hero'
 import Banner from '../components/Banner'
 import VerticalSlider from "../components/VerticalSlider";
 import Posts from "../components/Posts";
-import img from "../public/referal.jpg";
+import panel_img from "../public/il-sorriso-è-servito/cover.jpg";
 import Footer from "../components/Footer";
 import Focuses from "../components/Focuses";
 import Head from 'next/head'
+import Panel from "../components/Panel";
 
 const HeroText = {
 	title: 'Al fianco delle <span class="orange">diversità</span>',
@@ -97,6 +98,18 @@ const focuses = {
 	]
 }
 
+const panel =
+	{
+		title: 'Il sorriso è servito',
+		text: "<p>L’A.S.D. L’Arca Onlus vi invita a partecipare alla seconda edizione della manifestazione “Il sorriso è servito” presso il ristorante Filici di Paolino Scibetta, giorno 10 giugno dalle ore 20:30.</p>" +
+			"<p>Sarà una serata divertente e coinvolgente sia per voi che per  ragazzi dell’Arca. Infatti saranno loro a servire ai tavoli con un entusiasmo che vi stupirà.</p>" +
+			"<p>A volte non apprezziamo quanto è gratificante il lavoro ma lo diamo per scontato, mentre per i nostri ragazzi sarà molto appagante e importante per trascorrere una serata all’insegna del lavoro e viverlo come chiunque altro.</p>" +
+			"<p>Sarete testimoni delle loro abilità e della gioia di vivere un’esperienza al vostro “servizio”. Vi aspettiamo!</p>",
+		img: panel_img.src,
+		link: "tel:3282160181",
+		text_link: 'Prenota ora!'
+	}
+
 export default function Index() {
 
 	return (
@@ -111,6 +124,7 @@ export default function Index() {
 			</Head>
 			<Hero title={HeroText.title} text={HeroText.text} media={'/loop.mp4'} isVideo />
 			<Banner title={bannerText_1.title} text={bannerText_1.text} />
+			<Panel title={panel.title} text={panel.text} link={panel.link} text_link={panel.text_link} img={panel.img}/>
 			<VerticalSlider title={verticalSliderText_1.title} text={verticalSliderText_1.text} link={verticalSliderText_1.link} data={verticalSliderText_1.media}  withButton />
 			<Posts posts={posts}/>
 			<Focuses title={focuses.title}  focuses={focuses.list}/>
